@@ -12,9 +12,11 @@ class Folder(QWidget):
         self.setGeometry(550, 400, 350, 200)
         self.ui()
 
+
     def ui(self):
         self.maindesign()
         self.layouts()
+
 
     def maindesign(self):
         self.shot = QLabel("Shot Name:")
@@ -25,6 +27,7 @@ class Folder(QWidget):
         self.create.clicked.connect(self.make_my_folder)
         self.cancel = QPushButton("Cancel")
         self.cancel.clicked.connect(self.cancel_func)
+
 
     def layouts(self):
         self.mainlayout = QVBoxLayout()
@@ -41,6 +44,7 @@ class Folder(QWidget):
         self.bottomlayout.addWidget(self.create, alignment=Qt.AlignCenter)
         self.bottomlayout.addWidget(self.cancel, alignment=Qt.AlignCenter)
         self.setLayout(self.mainlayout)
+
 
     def make_my_folder(self):
         input_path = self.path_input.text()
