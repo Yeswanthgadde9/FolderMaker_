@@ -1,0 +1,32 @@
+{
+  "folders": {
+    "2d": {
+      "one": "Nuke/workfile"
+    },
+    "3d": {
+      "one": "Lgt"
+    },
+    "Out": {
+      "One": "Renders",
+      "Two": "Renders/4k",
+      "Three": "Renders/Qt"
+    },
+    "Input": {
+      "One": "Plates"
+    },
+    "Dependency": {
+      "One": "Dependency/Roto",
+      "Two": "Dependency/Paint",
+      "Three": "Dependency/Dmp"
+    },
+    "Elements": {
+      "one": "2delements"
+    },
+    "Edit": {
+      "One": "Reference/Edit"
+    }
+}
+
+}
+
+
